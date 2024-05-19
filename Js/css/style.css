@@ -1,0 +1,57 @@
+.calculator {
+  width: 310px;
+  height: auto;
+}
+.items {
+  display: grid;
+  padding: 8px;
+  gap: 4px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #bbc5cf;
+}
+.item {
+  margin: 0 auto;
+  height: 50px;
+  width: 70px;
+  background-color: #8795a2;
+  border-color: #8795a2;
+  font-size: medium;
+}
+.text {
+  height: 20px;
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: right;
+}
+.inputText {
+  text-align: right;
+}
+.zero {
+  width: 220px;
+  grid-area: 5/1 / span 1 / span 3;
+}
+.equal {
+  background-color: #46617b;
+  border-color: #46617b;
+}
+
+/*task 3*/
+.football {
+  width: 700px;
+  height: 700px;
+  background-color: green;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  background-color: #fffefe;
+  border-color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
